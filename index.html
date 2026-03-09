@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonlander Industries — Software Engineering &amp; Digital Signage Platform Development</title>
+  <meta name="description" content="Moonlander Industries — software engineering and digital signage platform development. Building Signage Rocket, cloud CMS for corporate lobbies, retail displays, and video walls. London, UK.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://moonlanderindustries.github.io/">
+  <meta property="og:title" content="Moonlander Industries — Software Engineering &amp; Digital Signage Platform Development">
+  <meta property="og:description" content="Software engineering and digital signage platform development. Building Signage Rocket. London, UK.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://moonlanderindustries.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Moonlander Industries">
+  <meta name="twitter:description" content="Software engineering and digital signage platform development. London, UK.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Moonlander Industries",
+    "url": "https://moonlanderindustries.com",
+    "description": "Software engineering and digital signage platform development.",
+    "location": {
+      "@type": "Place",
+      "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" }
+    },
+    "knowsAbout": ["software engineering", "digital signage", "cloud infrastructure", "DevOps"],
+    "brand": {
+      "@type": "Brand",
+      "name": "Signage Rocket",
+      "url": "https://signagerocket.com"
+    }
+  }
+  </script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+    .container { text-align: center; padding: 2rem; max-width: 720px; width: 100%; }
+    .terminal {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    .terminal-bar {
+      background: #21262d;
+      padding: 0.5rem 0.75rem;
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-r { background: #f85149; }
+    .dot-y { background: #d29922; }
+    .dot-g { background: #3fb950; }
+    .terminal-title { color: #484f58; font-size: 0.75rem; margin-left: 0.5rem; }
+    .terminal-body { padding: 1.25rem; font-size: 0.85rem; line-height: 1.6; min-height: 300px; }
+    .line { display: none; }
+    .line.visible { display: block; }
+    .prompt { color: #3fb950; }
+    .cmd { color: #c9d1d9; }
+    .typed-cmd { color: #c9d1d9; display: inline; }
+    .comment { color: #484f58; }
+    .string { color: #a5d6ff; }
+    .key { color: #d2a8ff; }
+    .val { color: #a5d6ff; }
+    .cursor {
+      display: inline-block; width: 8px; height: 14px;
+      background: #58a6ff; vertical-align: text-bottom;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .links {
+      display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;
+      opacity: 0; transition: opacity 0.5s;
+    }
+    .links.visible { opacity: 1; }
+    a {
+      color: #58a6ff; text-decoration: none; font-size: 0.9rem;
+      padding: 0.5rem 1rem; border: 1px solid #30363d; border-radius: 6px;
+      transition: all 0.2s;
+    }
+    a:hover { background: #161b22; border-color: #58a6ff; }
+    .status {
+      margin-top: 1.5rem; font-size: 0.75rem; color: #484f58;
+      opacity: 0; transition: opacity 0.5s;
+    }
+    .status.visible { opacity: 1; }
+    .status span { color: #3fb950; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Moonlander Industries — Software Engineering &amp; Digital Signage Platform Development</h1>
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <div class="terminal-title">bash — moonlanderindustries.com</div>
+      </div>
+      <div class="terminal-body" id="term">
+        <div class="line" id="b1-prompt"><span class="prompt">moonlander</span><span class="cmd">:</span><span class="string">~</span><span class="cmd">$ </span><span class="typed-cmd" id="b1-typed"></span><span class="cursor" id="b1-cursor"></span></div>
+        <div class="line" id="b1-r1"><span class="cmd">{</span></div>
+        <div class="line" id="b1-r2">&nbsp;&nbsp;<span class="key">"name"</span><span class="cmd">:</span> <span class="val">"Moonlander Industries"</span><span class="cmd">,</span></div>
+        <div class="line" id="b1-r3">&nbsp;&nbsp;<span class="key">"url"</span><span class="cmd">:</span> <span class="val">"<a href="https://moonlanderindustries.com" style="color:#a5d6ff;text-decoration:underline;text-underline-offset:3px;border:none;padding:0;font-size:inherit">moonlanderindustries.com</a>"</span><span class="cmd">,</span></div>
+        <div class="line" id="b1-r4">&nbsp;&nbsp;<span class="key">"what"</span><span class="cmd">:</span> <span class="val">"Software engineering &amp; digital signage platform development"</span><span class="cmd">,</span></div>
+        <div class="line" id="b1-r5">&nbsp;&nbsp;<span class="key">"builds"</span><span class="cmd">:</span> <span class="val">"<a href="https://signagerocket.com" style="color:#a5d6ff;text-decoration:underline;text-underline-offset:3px;border:none;padding:0;font-size:inherit">Signage Rocket</a> — cloud digital signage software"</span><span class="cmd">,</span></div>
+        <div class="line" id="b1-r6">&nbsp;&nbsp;<span class="key">"stack"</span><span class="cmd">:</span> <span class="val">["Node.js", "React", "TypeScript", "PostgreSQL", "AWS", "Terraform", "K3s"]</span><span class="cmd">,</span></div>
+        <div class="line" id="b1-r7">&nbsp;&nbsp;<span class="key">"location"</span><span class="cmd">:</span> <span class="val">"London, UK"</span></div>
+        <div class="line" id="b1-r8"><span class="cmd">}</span></div>
+        <div class="line" id="b1-blank">&nbsp;</div>
+
+        <div class="line" id="b2-prompt"><span class="prompt">moonlander</span><span class="cmd">:</span><span class="string">~</span><span class="cmd">$ </span><span class="typed-cmd" id="b2-typed"></span><span class="cursor" id="b2-cursor"></span></div>
+        <div class="line" id="b2-r1"><span class="cmd">STATUS  OK</span></div>
+        <div class="line" id="b2-r2"><span class="comment">All systems operational. All tests passing. Kettle on.</span></div>
+        <div class="line" id="b2-blank">&nbsp;</div>
+
+        <div class="line" id="final"><span class="prompt">moonlander</span><span class="cmd">:</span><span class="string">~</span><span class="cmd">$ </span><span class="cursor"></span></div>
+      </div>
+    </div>
+    <div class="links" id="links">
+      <a href="https://moonlanderindustries.com">moonlanderindustries.com &rarr;</a>
+      <a href="https://signagerocket.com">signagerocket.com &rarr;</a>
+    </div>
+    <div class="status" id="status"><span>&#x25CF;</span> Software engineering &amp; digital signage platform development — London, UK</div>
+  </div>
+
+  <script>
+    (function() {
+      var speed = 45;
+      var lineDelay = 80;
+      function show(id) { document.getElementById(id).classList.add('visible'); }
+      function type(elId, text, cursorId, cb) {
+        var el = document.getElementById(elId);
+        var i = 0;
+        var interval = setInterval(function() {
+          el.textContent += text[i]; i++;
+          if (i >= text.length) { clearInterval(interval); document.getElementById(cursorId).style.display = 'none'; setTimeout(cb, 300); }
+        }, speed);
+      }
+      function showLines(ids, cb) {
+        var i = 0;
+        function next() { if (i >= ids.length) { cb(); return; } show(ids[i]); i++; setTimeout(next, lineDelay); }
+        next();
+      }
+      setTimeout(function() {
+        show('b1-prompt');
+        type('b1-typed', 'cat company.json', 'b1-cursor', function() {
+          showLines(['b1-r1','b1-r2','b1-r3','b1-r4','b1-r5','b1-r6','b1-r7','b1-r8','b1-blank'], function() {
+            show('b2-prompt');
+            type('b2-typed', 'systemctl status', 'b2-cursor', function() {
+              showLines(['b2-r1','b2-r2','b2-blank','final'], function() {
+                document.getElementById('links').classList.add('visible');
+                document.getElementById('status').classList.add('visible');
+              });
+            });
+          });
+        });
+      }, 500);
+    })();
+  </script>
+</body>
+</html>
